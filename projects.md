@@ -4,9 +4,14 @@ title: Projects
 permalink: /projects/
 ---
 
-## Coming soon
+## Projects
 
-I’m currently curating and publishing my work. This page will be updated with:
+- **[SwiftUI VIPER (Swift 6)](https://github.com/victorgilalejandria/swiftui-viper-swift6)**
+  - A SwiftUI-first, Swift 6–compliant *specification* of VIPER: strict module contracts, canonical folder structure, and foundations for enforcement tooling (templates/automation).
+
+---
+
+I’m currently curating and publishing more work here. Next up:
 
 - public GitHub repositories
 - case studies (architecture, tradeoffs, results)
