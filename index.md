@@ -5,7 +5,7 @@ title: Home
 
 <div class="hero card">
   <h1 class="headline">Victor Gil Alejandria</h1>
-  <p class="subheadline"><strong>Senior iOS Developer / iOS Architect / Swift</strong> — High-Quality Mobile Products — Remote</p>
+  <p class="subheadline"><strong>Senior iOS Developer / iOS Architect / Swift / High-Quality Mobile Products / Remote</strong></p>
   <p class="muted">I build high-quality iOS apps and mobile architectures with a focus on maintainability, performance, and product craft.</p>
 
   <div class="cta">
