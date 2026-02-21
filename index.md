@@ -5,7 +5,7 @@ title: Home
 
 # Victor Gil Alejandria
 
-**Senior iOS Developer | iOS Architect | Swift | High-Quality Mobile Products | Remote**
+**Senior iOS Developer / iOS Architect / Swift / High-Quality Mobile Products / Remote**
 
 I build high-quality iOS apps and mobile architectures with a focus on maintainability, performance, and product craft.
 
