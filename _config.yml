@@ -1,0 +1,18 @@
+title: Victor Gil Alejandria
+description: Senior iOS Developer | iOS Architect | Swift | High-Quality Mobile Products | Remote
+url: "https://victorgilalejandria.github.io"
+baseurl: ""
+
+theme: minima
+
+# Show projects/links
+header_pages:
+  - projects.md
+  - resume.md
+
+minima:
+  social_links:
+    - { platform: github, user_url: "https://github.com/victorgilalejandria" }
+
+plugins:
+  - jekyll-feed
