@@ -27,4 +27,4 @@ See the full list on the **[Projects](/projects)** page.
 ## Contact
 
 - GitHub: <https://github.com/victorgilalejandria>
-- Email: (add later)
+- Email: <mailto:victor.alejandria@outlook.com>
