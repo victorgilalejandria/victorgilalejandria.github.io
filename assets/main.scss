@@ -1,0 +1,150 @@
+---
+# Overrides for Minima
+---
+
+@import "minima";
+
+:root {
+  --bg: #0b0b0f;
+  --surface: #12121a;
+  --surface-2: #1a1a24;
+  --text: #f2f2f3;
+  --muted: #b6b6c2;
+  --accent: #ff7a18; /* orange */
+  --accent-2: #ffb26b;
+  --border: rgba(255, 255, 255, 0.10);
+}
+
+/* Base */
+body {
+  background: radial-gradient(1200px 600px at 20% 0%, rgba(255, 122, 24, 0.18), transparent 60%),
+              radial-gradient(900px 500px at 80% 20%, rgba(255, 122, 24, 0.10), transparent 55%),
+              var(--bg);
+  color: var(--text);
+}
+
+.site-header,
+.site-footer {
+  border-color: var(--border);
+  background: rgba(0,0,0,0.35);
+  backdrop-filter: blur(10px);
+}
+
+.site-title,
+.site-title:visited,
+.page-link,
+.page-link:visited {
+  color: var(--text);
+}
+
+a {
+  color: var(--accent);
+}
+
+a:visited {
+  color: var(--accent-2);
+}
+
+.post-content h1, .post-content h2, .post-content h3,
+.page-content h1, .page-content h2, .page-content h3 {
+  color: var(--text);
+}
+
+/* Containers */
+.wrapper {
+  max-width: 980px;
+}
+
+.card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 18px 18px;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.35);
+}
+
+.hero {
+  margin: 18px 0 22px;
+  padding: 22px;
+}
+
+.hero .headline {
+  margin: 0;
+  font-size: 2.1rem;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.hero .subheadline {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.hero .cta {
+  margin-top: 16px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.06s ease, background 0.15s ease, border-color 0.15s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  border-color: rgba(255, 122, 24, 0.55);
+}
+
+.btn-primary {
+  background: rgba(255, 122, 24, 0.14);
+  color: var(--text) !important;
+}
+
+.btn-ghost {
+  background: rgba(255,255,255,0.04);
+  color: var(--text) !important;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 12px;
+  margin: 14px 0;
+}
+
+.grid .col-6 { grid-column: span 6; }
+.grid .col-4 { grid-column: span 4; }
+
+@media (max-width: 860px) {
+  .grid .col-6, .grid .col-4 { grid-column: span 12; }
+}
+
+.muted { color: var(--muted); }
+.tag {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(0,0,0,0.25);
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+/* Make code blocks readable in dark */
+pre, code {
+  background: rgba(255,255,255,0.06);
+  border-radius: 10px;
+}
+
+/* Footer spacing */
+.site-footer { margin-top: 26px; }
