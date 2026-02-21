@@ -19,19 +19,11 @@ title: Home
 
 <div class="grid">
   <div class="card col-4">
-    <div class="tag">Coming soon</div>
-    <h3 style="margin-top:10px;">Project A</h3>
-    <p class="muted">Short description + links.</p>
-  </div>
-  <div class="card col-4">
-    <div class="tag">Coming soon</div>
-    <h3 style="margin-top:10px;">Project B</h3>
-    <p class="muted">Short description + links.</p>
-  </div>
-  <div class="card col-4">
-    <div class="tag">Coming soon</div>
-    <h3 style="margin-top:10px;">Project C</h3>
-    <p class="muted">Short description + links.</p>
+    <div class="tag">GitHub</div>
+    <h3 style="margin-top:10px;">
+      <a href="https://github.com/victorgilalejandria/swiftui-viper-swift6">SwiftUI VIPER (Swift 6)</a>
+    </h3>
+    <p class="muted">A SwiftUI-first, Swift 6–compliant specification of VIPER with strict module contracts, canonical structure, and foundations for enforcement tooling.</p>
   </div>
 </div>
 
